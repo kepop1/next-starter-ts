@@ -1,0 +1,10 @@
+@use 'src/lib/Font.module' as font;
+@use 'src/lib/Spacing.module' as spacing;
+
+.input {
+  font-family: font.$openSansRegular;
+  font-size: font.$body;
+  color: black;
+  padding: spacing.$xsmall;
+  margin-bottom: spacing.$small;
+}

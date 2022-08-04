@@ -1,0 +1,10 @@
+@use 'src/lib/Font.module' as font;
+@use 'src/lib/Spacing.module' as spacing;
+
+.loadingText {
+  font-family: font.$openSansBold;
+  font-size: font.$heading;
+  color: black;
+  margin-top: spacing.$xlarge;
+  text-align: center;
+}
